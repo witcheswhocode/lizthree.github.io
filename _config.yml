@@ -1,2 +1,3 @@
 name: Liz Anderson
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
