@@ -3,7 +3,7 @@ body {
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Trebuchet','Helvetica', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -14,25 +14,41 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #846aa5;
 }
 a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 2.5em;
+}
+h2 {
+    font-size: 1.2em;
+}
+h3 {
+    font-size: 0.9em;
+}
+h4 {
+    font-size: 0.7em;
+}
+h1, h2, h3, h4 {
+    font-family:'Trebuchet','Helvetica', 'Sans-Serif';
+    color: rgb(29, 27, 27);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
 }
 p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1.4em;
-    color: #333;
+    color: rgb(29, 27, 27);
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
 
+/* Posts */
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
@@ -42,6 +58,26 @@ ul.posts li {
     list-style: none;
 }
 
+/* Learning */
+th, td {
+    font-family:'Trebuchet','Helvetica', 'Sans-Serif';
+    font-size: .9em;
+    line-height: 1.1em;
+    border-bottom: 1px solid #ddd;
+  }
+/* columns */
+td {
+    padding: 5px;
+}
+#course {
+    width: 30%;
+}
+#course_desc {
+    width: 40%;
+}
+#assignments {
+    width: 20%;
+}
 
 /* 
 Max width before this PARTICULAR table gets nasty
