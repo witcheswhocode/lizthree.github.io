@@ -25,19 +25,21 @@ h1 {
 }
 h2 {
     font-size: 1.2em;
+    text-align: center;
 }
 h3 {
     font-size: 0.9em;
+    text-align: center;
 }
 h4 {
     font-size: 0.7em;
+    text-align: center;
 }
 h1, h2, h3, h4 {
     font-family:'Trebuchet','Helvetica', 'Sans-Serif';
     color: rgb(29, 27, 27);
     margin-top: 5px;
     margin-bottom: 5px;
-    text-align: center;
 }
 p {
     font-size: 1.2em;
