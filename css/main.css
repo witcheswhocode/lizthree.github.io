@@ -12,6 +12,14 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
 a {
     text-decoration: none;
     color: #846aa5;
@@ -21,22 +29,25 @@ a:hover {
 }
 h1 {
     font-size: 2.5em;
+    text-align: left;
 }
 h2 {
-    font-size: 1.2em;
+    font-size: 1.2em;    
+    text-align: center;
 }
 h3 {
     font-size: 0.9em;
+    text-align: center;
 }
 h4 {
-    font-size: 0.7em;
+    font-size: 0.7em;    
+    text-align: center;
 }
 h1, h2, h3, h4 {
     font-family:'Trebuchet','Helvetica', 'Sans-Serif';
     color: rgb(29, 27, 27);
     margin-top: 5px;
     margin-bottom: 5px;
-    text-align: center;
 }
 p {
     font-size: 1.2em;
@@ -50,11 +61,17 @@ footer {
 
 /* Posts */
 ul.posts { 
+    font-family:'Trebuchet','Helvetica', 'Sans-Serif';
+    font-size: .9em;
+    line-height: 1.1em;
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
 
-ul.posts li {
+ul.posts li {    
+    font-family:'Trebuchet','Helvetica', 'Sans-Serif';
+    font-size: .9em;
+    line-height: 1.1em;
     list-style: none;
 }
 
