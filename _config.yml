@@ -1,6 +1,6 @@
 name: Liz Anderson
 markdown: kramdown
-pages-theme: minimal
+theme: jekyll-theme-minimal
 permalink: /blog/:year/:month/:day/:title
 values:
   layout: "default"
