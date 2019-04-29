@@ -1,6 +1,7 @@
 name: Liz Anderson
+title: lizthree Github
+logo: /assets/img/liz_face.jpg
 markdown: kramdown
-theme: jekyll-theme-minimal
 permalink: /blog/:year/:month/:day/:title
 values:
   layout: "default"
