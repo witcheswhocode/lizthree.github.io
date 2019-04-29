@@ -4,6 +4,7 @@ body {
     font-family:'Trebuchet','Helvetica', 'Sans-Serif';
 }
 nav ul, footer ul {
+    font-family:'Trebuchet','Helvetica', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -29,6 +30,7 @@ a:hover {
 }
 
 p {
+    font-family:'Trebuchet','Helvetica', 'Sans-Serif';
     font-size: 1.2em;
     line-height: 1.4em;
     color: rgb(29, 27, 27);
@@ -40,6 +42,7 @@ footer {
 
 /* Posts */
 ul.posts {
+    font-family:'Trebuchet','Helvetica', 'Sans-Serif';
     font-size: .9em;
     line-height: 1.1em;
     margin: 20px auto 40px;
@@ -47,6 +50,7 @@ ul.posts {
 }
 
 ul.posts li {
+    font-family:'Trebuchet','Helvetica', 'Sans-Serif';
     font-size: .9em;
     line-height: 1.1em;
     list-style: none;
