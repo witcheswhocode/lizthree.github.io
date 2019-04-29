@@ -1,3 +1,8 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+    font-family:'Trebuchet','Helvetica', 'Sans-Serif';
+}
 nav ul, footer ul {
     padding: 0px;
     list-style: none;
