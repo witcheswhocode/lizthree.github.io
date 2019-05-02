@@ -1,10 +1,12 @@
 ---
-layout: default
-title: Liz Anderson's Blog
+layout: sidebar
+title: Blog
 ---
 
-<h1>{{ page.title }}</h1>
-<ul class="posts">
+<div class="title">
+	<h1>{{ page.title }}</h1><br>
+</div>
+<ul class="post">
 	{% for post in site.posts %}
 	<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	{% endfor %}
