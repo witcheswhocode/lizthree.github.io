@@ -23,6 +23,7 @@ nav ul li {
 
 .title {
   display:inline-block;
+  width:100%;
 }
 
 ul .post {
