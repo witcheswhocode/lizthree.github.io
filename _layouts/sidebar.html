@@ -11,6 +11,21 @@ layout: default
       <div class="author-name">{{site.author}}</div>
       <p>{{site.about-author}}</p>
     </div>
+    <div class="about-me">
+      <ul>
+        <li><b>Learning:</b></li>
+        <li>Exploring Datasets</li>
+        <li>Reproducible Research</li>
+        <li>Statistical Inference</li>
+      </ul>
+      <br>
+      <ul>
+        <li><b>Learning:</b></li>
+        <li>Python</li>
+        <li>C/C++, .NET</li>
+        <li>Github</li>
+      </ul>
+    </div>
   </header> <!-- End Header -->
   <body>
     {% include sidebar.html %}
@@ -19,21 +34,9 @@ layout: default
     <section class="contact">
       <h3 class="contact-title">Contact me</h3>
       <ul>
-        {% if site.social-github %}
-          <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fa fa-github"></i></a></li>
-        {% else %}
-          <li class="github"><a href="http://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-        {% endif %}
-        {% if site.social-linkedin %}
-          <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-        {% else %}
-          <li class="linkedin"><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-        {% endif %}
-        {% if site.social-email %}
-          <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
-        {% else %}
-          <li class="email"><a href="mailto:lizanderson.ca@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-        {% endif %}
+          <li><a class="social" href="http://github.com/{{site.social-github}}" target="_blank">GitHub</a></li>
+          <li><a class="social" href="https://in.linkedin.com/in/{{site.social-linkedin}}"  target="_blank">LinkedIn</a></li>
+          <li><a class="social" href="mailto:lizanderson.ca@gmail.com">Email</a></li>
       </ul>
     </section> <!-- End Section Contact -->
     <div class="copyright">
