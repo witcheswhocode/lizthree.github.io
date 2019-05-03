@@ -37,6 +37,14 @@ ul .post {
   display:inline-block;
 }
 
+.post ul li{
+  width: 90%;
+}
+
+div .posts {
+  width:100%;
+}
+
 html {
   line-height: 1.15;
   /* 1 */
@@ -92,6 +100,7 @@ h1, h2, h3, h4 {
   color: rgb(29, 27, 27);
   margin-top: 5px;
   margin-bottom: 5px;
+  width: 90%;
 }
 
 /* Grouping content
@@ -1265,7 +1274,6 @@ footer .copyright {
   transition: all .3s ease;
   -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
           box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
-  text-align: center;
   padding: 10px;
 }
 
