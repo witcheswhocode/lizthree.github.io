@@ -1189,16 +1189,18 @@ table tfoot td {
   text-align: center;
 }
 
-ul {
+.about-me ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  text-align: left;
+  text-align: center;
   text-decoration: bold;
 }
 
-ul li {
-  text-align: left;
+.about-me ul li {
+  text-align: center;
+  margin:0 0 0 10%;
+  letter-spacing: 0.03em;
 }
 
 .about_me p {
