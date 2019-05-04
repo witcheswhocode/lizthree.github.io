@@ -34,10 +34,10 @@ nav ul li {
 }
 
 .post li{
-    display:left;
+  display:table;
 }
 
-.post ul li{
+.post ul li a{
   width: 90%;
 }
 
