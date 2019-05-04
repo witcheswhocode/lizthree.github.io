@@ -1,6 +1,6 @@
 ---
 layout: sidebar
-title: Blog - WIP
+title: Blog & Projects
 ---
 
 <div class="title">
@@ -8,6 +8,6 @@ title: Blog - WIP
 </div>
 <ul class="post">
 	{% for post in site.posts %}
-	<span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}<br></a><br></li>
+	<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}<br></a><a>{{ post.desc }}<br></a>
 	{% endfor %}
 </ul>

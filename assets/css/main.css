@@ -33,8 +33,8 @@ nav ul li {
   font-size-adjust: inherit;
 }
 
-ul .post {
-  display:inline-block;
+.post li{
+    display:left;
 }
 
 .post ul li{
@@ -1256,7 +1256,7 @@ footer .copyright {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: inherit;
+  display: flow-root;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
