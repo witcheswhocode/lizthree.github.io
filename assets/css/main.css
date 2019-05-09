@@ -37,7 +37,11 @@ nav ul li {
   display:table;
 }
 
-
+.words-post{
+  font-size: 12px;
+  text-decoration: bold;
+  letter-spacing: 0.5px;
+}
 
 div .posts {
   width:100%;
@@ -1271,7 +1275,7 @@ footer .copyright {
   transition: all .3s ease;
   -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
           box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
-  padding: 20px 70px 20px 20px;
+  padding: 20px 20px 20px 20px;
 }
 
 .post:hover {
@@ -1512,7 +1516,7 @@ a.newer-posts:hover {
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .post {
-    width: 48%;
+    width: 90%;
     max-width: 100%;
     margin: 0 0.9% 1.5%;
     -webkit-box-orient: vertical;

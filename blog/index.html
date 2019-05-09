@@ -8,6 +8,6 @@ title: Blog & Projects
 </div>
 <ul>
 	{% for post in site.posts %}
-	<li class="post"><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}<br></a><a>{{ post.desc }}<br></a>
+	<li class="post"><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}<br></a><a class="words-post">{{ post.words }}<br></a><a>{{ post.desc }}<br></a>
 	{% endfor %}
 </ul>
