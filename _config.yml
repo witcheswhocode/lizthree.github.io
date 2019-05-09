@@ -3,6 +3,7 @@ title: lizthree Github
 logo: /assets/img/liz_face.jpg
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+timezone: PST
 values:
   layout: "default"
 
