@@ -1075,7 +1075,7 @@ table tfoot td {
 }
 
 .about {
-  margin: 0 0 40px;
+  margin: 0 0 5px;
   text-align: center;
 }
 
@@ -1133,8 +1133,8 @@ table tfoot td {
 }
 
 .about p {
-  font-size: 16px;
-  margin: 10px;
+  font-size: 12px;
+  margin: 8px;
 }
 
 .content-box {
@@ -1166,6 +1166,7 @@ table tfoot td {
   margin: 0 0 5px;
   text-transform: uppercase;
   text-align: center;
+  width:100%;
 }
 
 .contact .contact-title::before {
@@ -1198,6 +1199,31 @@ table tfoot td {
   background-color: #dcd0e2;
 }
 
+.about-me .contact-title {
+  position: relative;
+  color: #333030;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 5px 0 0 0;
+  width:100%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about-me .contact-title::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+  display: block;
+  width: 82px;
+  height: 1.7px;
+  background-color: #dcd0e2;
+}
+
 .contact ul {
   margin: 0;
   padding: 0;
@@ -1205,23 +1231,20 @@ table tfoot td {
   text-align: center;
 }
 
-.about-me ul {
+.about-me p {
   margin: 0;
   padding: 0;
   list-style: none;
   text-align: center;
   text-decoration: bold;
+  font-size: 12px;
 }
 
 .about-me ul li {
-  text-align: center;
+  text-align: left;
   margin:0 0 0 10%;
   letter-spacing: 0.03em;
-}
-
-.about_me p {
-  margin:0px;
-  padding:0px;
+  font-size: 12px;
 }
 
 .contact ul li {
