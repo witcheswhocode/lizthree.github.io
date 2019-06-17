@@ -2,18 +2,18 @@ nav ul {
   padding: 0px;
   list-style: none;
   font-weight: bold;
-  color: #FFFFFF;
+  color: rgb(255, 255, 255);
   text-align:center;
 }
 nav ul li {
   width: 90%;
   display: inline-block;
-  background-color: #dcd0e2;
+  background-color: #d5c1df;
   font-size: 16px;
-  opacity: 0.9;
+  opacity: 0.8;
   margin-bottom: 10px;
   text-align: center;
-  padding: 10px;
+  padding: 6.5px;
 }
 
 .btn {
