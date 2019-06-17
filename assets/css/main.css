@@ -1232,7 +1232,10 @@ table tfoot td {
 }
 
 .about-me p {
-  margin: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 0;
   list-style: none;
   text-align: center;
